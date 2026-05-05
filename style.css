@@ -194,36 +194,32 @@ main {
     object-fit: cover;
 }
 
-@media (max-width: 900px) {
-    .hero { flex-direction: column-reverse; text-align: center; padding: 2rem; }
-    .hero-img { max-width: 80%; width: 320px; }
-    .hero h1 { font-size: 2.2rem; }
-    .story-top { grid-template-columns: 1fr; }
-    .story-grid { grid-template-columns: 1fr; }
-}
-
 /* How to Play section styles */
 .howto {
     margin-top: 1.25rem;
     background: rgba(255, 255, 255, 0.04);
     color: #e8f6fb;
 }
+
 .howto-grid {
     display: grid;
     grid-template-columns: 260px 1fr;
     gap: 1rem;
     align-items: center;
 }
+
 .howto-art {
     margin: 0;
     padding: 1rem;
 }
+
 .key-image {
     width: 220px;
     max-width: 100%;
     height: auto;
     display: block;
 }
+
 .howto-keys ul {
     list-style: none;
     padding: 0;
@@ -231,12 +227,8 @@ main {
     font-size: 1.05rem;
     line-height: 1.8;
 }
+
 .howto-keys li strong {
     display: inline-block;
     width: 90px;
-}
-
-@media (max-width: 700px) {
-    .howto-grid { grid-template-columns: 1fr; text-align: center; }
-    .howto-keys li strong { width: auto; display: block; margin-bottom: 0.25rem; }
 }
