@@ -6,7 +6,7 @@ html {
 .navbar {
     background-color: #3483c7;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     position: sticky;
     top: 10px;
 }
