@@ -10,27 +10,94 @@
   <title>Fishing Frenzy</title>
 </head>
 <body>
-  <!-- Creating a navbar -->
   <nav class="navbar">
     <ul>
-      <li><a href="#body">Home</a></li>
+      <li><a href="#hero">Home</a></li>
       <li><a href="#about">The Story</a></li>
       <li><a href="#contact">How to Play</a></li>
       <li><a href="#intendedAudience">Intended Audience</a></li>
       <li><a href="#aboutUs">About Us</a></li>
     </ul>
   </nav>
-  <section id="hero" class="hero">
-    <div class="hero-content">
-      <h1>Welcome to Fishing Frenzy</h1>
-      <p class="lead">Being better, together! Work with your fish friends to defeat the monsters!</p>
-      <p class="hero-ctas">
-        <a class="btn primary" href="#howto">Play Now</a>
-        <a class="btn ghost" href="#about">Learn More</a>
-      </p>
-    </div>
-    <div class="hero-media">
-      <img class="hero-img" src="assets/image.png" alt="Fishing Frenzy hero illustration">
-    </div>
-  </section>
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Multiplayer fishing adventure</p>
+        <h1>Welcome to Fishing Frenzy</h1>
+        <p class="lead">Being better, together. Work with your fish friends to defeat the monsters.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#contact">Play Now</a>
+          <a class="btn ghost" href="#about">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img class="hero-img" src="assets/bass.png" alt="Fishing Frenzy hero illustration">
+      </div>
+    </section>
+
+    <section id="about" class="story section">
+      <div class="story-top">
+        <div class="section-header">
+          <p class="eyebrow">The Story</p>
+          <h2>One tide, one team, one chance to save the reef.</h2>
+          <p>
+            Fishing Frenzy follows a crew of brave fish who defend their underwater home from
+            roaming monsters. The deeper the journey goes, the more the team has to rely on
+            timing, coordination, and a little luck.
+          </p>
+        </div>
+
+        <figure class="story-art">
+          <img src="assets/sword.png" alt="Sword fish character from Fishing Frenzy">
+        </figure>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card">
+          <h3>The setup</h3>
+          <p>
+            A peaceful reef is disturbed when strange creatures begin appearing in the deep
+            water. The only way to push them back is to work together and keep the line moving.
+          </p>
+        </article>
+        <article class="story-card">
+          <h3>The mission</h3>
+          <p>
+            Catch, dodge, and outlast the monsters while building momentum with your team.
+            Every round pushes your group closer to the final showdown.
+          </p>
+        </article>
+        <article class="story-card">
+          <h3>The vibe</h3>
+          <p>
+            Fast, cooperative, and easy to jump into. It is designed to feel playful and clear
+            so players can focus on the action.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="howto section">
+      <div class="section-header">
+        <p class="eyebrow">How to Play</p>
+        <h2>Controls</h2>
+        <p>Use the keys below to move your fish, shoot, and switch characters.</p>
+      </div>
+
+      <div class="howto-grid">
+        <figure class="howto-art">
+          <img src="assets/wasd.png" alt="W A S D keys and controls" class="key-image">
+        </figure>
+
+        <div class="howto-keys">
+          <ul>
+            <li><strong>W A S D</strong>: Move Up / Left / Down / Right</li>
+            <li><strong>Space</strong>: Shoot</li>
+            <li><strong>Q</strong>: Switch fish</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+</html>
