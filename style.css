@@ -232,3 +232,34 @@ main {
     display: inline-block;
     width: 90px;
 }
+
+/* About Us section styles */
+.about {
+    margin-top: 1.25rem;
+    background: rgba(255, 255, 255, 0.04);
+    color: #e8f6fb;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.team-card {
+    padding: 1.25rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.team-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.team-card p {
+    margin: 0;
+    opacity: 0.8;
+}
