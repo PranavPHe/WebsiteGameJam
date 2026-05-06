@@ -234,7 +234,7 @@ main {
 }
 
 /* About Us section styles */
-.about {
+.about .stronger {
     margin-top: 1.25rem;
     background: rgba(255, 255, 255, 0.04);
     color: #e8f6fb;
