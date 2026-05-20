@@ -1,4 +1,4 @@
-# Fishing Frenzy
+# Fishy Frenzy
 
 ## Developed by:
 - Pranav: Web Developer
@@ -9,5 +9,9 @@
 - Aditya: Design / Web Developer
 
 ## Credits
-- Pixel art on website sourced from Sprite-AI (Creative Commons License)
-- Pixel art on game created by Darsheel
+- Pixel art created by Devin, Darsheel, and Rocco
+- Website created by Pranav, Ina, and Aditya
+- Game created by Devin, Rocco, and Darsheel
+
+## Hosted
+Hosted at https://pranavphe.github.io/WebsiteGameJam/
